@@ -1,0 +1,1 @@
+/home/opt/openmpi/bin/mpirun --mca btl_tcp_if_include 192.168.0.0/16 --bind-to core --hostfile ./host_file -n 2 ./test
